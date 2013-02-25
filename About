@@ -1,0 +1,7 @@
+The task here is to represent data in hierarchical manner in database. The database here used is MySql. The method 
+followed to represent the data is Nested Set Model. In this method, nodes are read from left to right and they are given
+number from left to right. Parent node being at the top, is given 1 and all other gets in an order from left to right.
+This approach is known as modified preorder tree traversal algorithm.
+
+A table "category" is created in MySql having attributes as category_id int auto_increment, name varchar(20). lft int and 
+rgt int. We cannot use left and right as attributes because both are the keywords in MySql.
