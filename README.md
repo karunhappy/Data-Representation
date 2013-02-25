@@ -8,6 +8,7 @@ This little effort will show you how to first install PHP, Apache and MySql usin
 To install PHP on the system. First open the terminal and type 
 
 $ sudo apt-get install php5
+
 $ sudo apt-get install libapache2-mod-php5
 
 To install Apache, Apache is the server required to run PHP source files.
