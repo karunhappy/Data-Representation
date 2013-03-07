@@ -18,6 +18,7 @@ $ sudo apt-get install apache2
 To install MYSQL 
 
 $ sudo apt-get install mysql-server
+
 During installation, you will be asked to enter password for MySql root user.
 
 After all the installations are done, next step is to configure them and start developing an application. 
